@@ -1,9 +1,11 @@
 package com.mathieupauly.mergesample;
 
+import java.io.PrintStream;
+
 public class Extract {
-    public void justDoIt(int n) {
+    public void justDoIt(int n, PrintStream out) {
         int value = compute(n);
-        System.out.println(value);
+        out.format("Result: %d.", value);
     }
 
     private int compute(int n) {
