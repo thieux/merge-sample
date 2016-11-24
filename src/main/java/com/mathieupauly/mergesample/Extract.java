@@ -7,6 +7,6 @@ public class Extract {
     }
 
     private int compute(int n) {
-        return n * 2;
+        return (n * 2) + 1;
     }
 }
